@@ -1,0 +1,862 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ACTIVE_DEVICE
+LIBS:CHIP
+LIBS:CONNECTOR
+LIBS:DIODE
+LIBS:DISCRETE
+LIBS:HDMI
+LIBS:MODULE
+LIBS:TRANSISTOR
+LIBS:core_evb-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 11
+Title ""
+Date "25 nov 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CON-16X2 J4
+U 1 1 53E769CF
+P 3750 2900
+F 0 "J4" H 4150 3050 60  0000 C CNN
+F 1 "CON-16X2" H 4250 1200 60  0000 C CNN
+F 2 "~" H 3750 2900 60  0000 C CNN
+F 3 "~" H 3750 2900 60  0000 C CNN
+	1    3750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2900 3300 2900
+Wire Wire Line
+	3300 3000 3750 3000
+Wire Wire Line
+	3300 3100 3750 3100
+Wire Wire Line
+	3300 3200 3750 3200
+Wire Wire Line
+	3300 3300 3750 3300
+Wire Wire Line
+	3300 3400 3750 3400
+Wire Wire Line
+	3300 3500 3750 3500
+Wire Wire Line
+	3300 3600 3750 3600
+Wire Wire Line
+	3300 3700 3750 3700
+Wire Wire Line
+	3300 3800 3750 3800
+Wire Wire Line
+	3300 3900 3750 3900
+Wire Wire Line
+	3300 4000 3750 4000
+Wire Wire Line
+	3300 4100 3750 4100
+Wire Wire Line
+	3300 4200 3750 4200
+Wire Wire Line
+	3300 4300 3750 4300
+Wire Wire Line
+	3300 4400 3750 4400
+Wire Wire Line
+	5200 2900 4800 2900
+Wire Wire Line
+	5200 3100 4800 3100
+Wire Wire Line
+	5200 3200 4800 3200
+Wire Wire Line
+	5200 3300 4800 3300
+Wire Wire Line
+	4800 3400 5200 3400
+Wire Wire Line
+	5200 3500 4800 3500
+Wire Wire Line
+	5200 3600 4800 3600
+Wire Wire Line
+	5200 3700 4800 3700
+Wire Wire Line
+	5200 3800 4800 3800
+Wire Wire Line
+	5200 3900 4800 3900
+Wire Wire Line
+	5200 4000 4800 4000
+Wire Wire Line
+	5200 4100 4800 4100
+Wire Wire Line
+	5200 4200 4800 4200
+Wire Wire Line
+	5200 4300 4800 4300
+Wire Wire Line
+	5200 4400 4800 4400
+NoConn ~ 4800 3000
+Text Label 3450 2900 0    40   ~ 0
+DM0
+Text Label 5050 2900 2    40   ~ 0
+DP0
+Text Label 1450 1550 0    50   ~ 0
+TVOUT[0..3]
+Wire Bus Line
+	1375 1550 1525 1550
+Entry Wire Line
+	1525 1550 1625 1650
+Entry Wire Line
+	1525 1650 1625 1750
+Entry Wire Line
+	1525 1750 1625 1850
+Wire Bus Line
+	1525 1550 1525 1975
+Wire Wire Line
+	1625 1650 1925 1650
+Wire Wire Line
+	1625 1750 1925 1750
+Wire Wire Line
+	1625 1850 1925 1850
+Text GLabel 1925 1650 2    30   UnSpc ~ 0
+VGA-G
+Text GLabel 1925 1750 2    30   UnSpc ~ 0
+VGA-B
+Text GLabel 1925 1850 2    30   UnSpc ~ 0
+VGA-R
+Entry Wire Line
+	1525 1875 1625 1975
+Wire Wire Line
+	1625 1975 1925 1975
+Text Label 1675 1650 0    40   ~ 0
+TVOUT0
+Text Label 1675 1750 0    40   ~ 0
+TVOUT1
+Text Label 1675 1850 0    40   ~ 0
+TVOUT2
+Text Label 1675 1975 0    40   ~ 0
+TVOUT3
+Text GLabel 3300 3100 0    30   UnSpc ~ 0
+VGA-G
+Text GLabel 3300 3000 0    30   UnSpc ~ 0
+VGA-R
+Text GLabel 5200 3100 2    30   UnSpc ~ 0
+VGA-B
+Text HLabel 1375 1550 0    50   UnSpc ~ 0
+TVOUT[0..3]
+Text HLabel 1375 2125 0    50   UnSpc ~ 0
+VGA-HS
+Text HLabel 1375 2250 0    50   UnSpc ~ 0
+VGA-VS
+Wire Wire Line
+	1375 2125 1725 2125
+Wire Wire Line
+	1375 2250 1725 2250
+Text Label 1450 2125 0    40   ~ 0
+VGA-HS
+Text Label 1450 2250 0    40   ~ 0
+VGA-VS
+Text Label 3650 3200 2    40   ~ 0
+VGA-HS
+Text Label 5125 3200 2    40   ~ 0
+VGA-VS
+Text HLabel 1375 2375 0    50   UnSpc ~ 0
+UART0-TX
+Text HLabel 1375 2500 0    50   UnSpc ~ 0
+UART0-RX
+Wire Wire Line
+	1375 2375 1725 2375
+Wire Wire Line
+	1725 2500 1375 2500
+Text Label 1425 2375 0    40   ~ 0
+UART0-TX
+Text Label 1425 2500 0    40   ~ 0
+UART0-RX
+Text Label 3375 3300 0    40   ~ 0
+UART0-TX
+Text Label 3375 3400 0    40   ~ 0
+UART1-TX
+Text Label 4850 3300 0    40   ~ 0
+UART0-RX
+Text Label 4850 3400 0    40   ~ 0
+UART1-RX
+Text HLabel 1375 2625 0    50   UnSpc ~ 0
+UART1-TX
+Text HLabel 1375 2750 0    50   UnSpc ~ 0
+UART1-RX
+Wire Wire Line
+	1375 2625 1725 2625
+Wire Wire Line
+	1725 2750 1375 2750
+Text Label 1425 2625 0    40   ~ 0
+UART1-TX
+Text Label 1425 2750 0    40   ~ 0
+UART1-RX
+Text HLabel 1375 2875 0    50   UnSpc ~ 0
+I2C1-SCL
+Text HLabel 1375 3000 0    50   UnSpc ~ 0
+I2C1-SDA
+Wire Wire Line
+	1375 2875 1725 2875
+Wire Wire Line
+	1375 3000 1725 3000
+Text Label 1425 2875 0    40   ~ 0
+I2C1-SCL
+Text Label 1425 3000 0    40   ~ 0
+I2C1-SDA
+Text HLabel 1375 3350 0    50   UnSpc ~ 0
+SPI0-SCK
+Wire Wire Line
+	1375 3350 1725 3350
+Text Label 1425 3350 0    40   ~ 0
+SPI0-SCK
+Text HLabel 1375 3475 0    50   UnSpc ~ 0
+SPI0-MI
+Text HLabel 1375 3600 0    50   UnSpc ~ 0
+SPI0-MO
+Text HLabel 1375 3725 0    50   UnSpc ~ 0
+SPI0-CS
+Wire Wire Line
+	1375 3475 1725 3475
+Text Label 1425 3475 0    40   ~ 0
+SPI0-MI
+Wire Wire Line
+	1375 3600 1725 3600
+Text Label 1425 3600 0    40   ~ 0
+SPI0-MO
+Wire Wire Line
+	1375 3725 1725 3725
+Text Label 1425 3725 0    40   ~ 0
+SPI0-CS
+Text Label 3375 3500 0    40   ~ 0
+I2C1-SDA
+Text Label 4875 3500 0    40   ~ 0
+I2C1-SCL
+Text Label 3375 3600 0    40   ~ 0
+SPI0-SCK
+Text Label 4900 3600 0    40   ~ 0
+SPI0-MI
+Text Label 3375 3700 0    40   ~ 0
+SPI0-MO
+Text Label 4900 3700 0    40   ~ 0
+SPI0-CS
+$Comp
+L +5V #PWR052
+U 1 1 53E90E2A
+P 1675 1025
+F 0 "#PWR052" H 1675 1115 20  0001 C CNN
+F 1 "+5V" H 1675 1115 30  0000 C CNN
+F 2 "" H 1675 1025 60  0000 C CNN
+F 3 "" H 1675 1025 60  0000 C CNN
+	1    1675 1025
+	0    1    1    0   
+$EndComp
+Text HLabel 1375 1025 0    50   UnSpc ~ 0
+5V
+Text HLabel 1375 1200 0    50   UnSpc ~ 0
+3V3
+$Comp
+L +3.3V #PWR053
+U 1 1 53E90E32
+P 1675 1200
+F 0 "#PWR053" H 1675 1160 30  0001 C CNN
+F 1 "+3.3V" H 1675 1310 30  0000 C CNN
+F 2 "" H 1675 1200 60  0000 C CNN
+F 3 "" H 1675 1200 60  0000 C CNN
+	1    1675 1200
+	0    1    1    0   
+$EndComp
+Text HLabel 1375 1350 0    50   UnSpc ~ 0
+GND
+$Comp
+L GND #PWR054
+U 1 1 53E90E39
+P 1675 1350
+F 0 "#PWR054" H 1675 1350 30  0001 C CNN
+F 1 "GND" H 1675 1280 30  0001 C CNN
+F 2 "" H 1675 1350 60  0000 C CNN
+F 3 "" H 1675 1350 60  0000 C CNN
+	1    1675 1350
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1375 4025 0    50   UnSpc ~ 0
+HPL
+Text HLabel 1375 4175 0    50   UnSpc ~ 0
+HPR
+Text HLabel 1375 4425 0    50   UnSpc ~ 0
+LINL
+Text HLabel 1375 4575 0    50   UnSpc ~ 0
+LINR
+Wire Wire Line
+	1375 4025 1725 4025
+Wire Wire Line
+	1375 4175 1725 4175
+Wire Wire Line
+	1375 4425 1725 4425
+Wire Wire Line
+	1375 4575 1725 4575
+Wire Wire Line
+	1675 1025 1375 1025
+Wire Wire Line
+	1675 1200 1375 1200
+Wire Wire Line
+	1675 1350 1375 1350
+Text Label 1500 4025 0    40   ~ 0
+HPL
+Text Label 1500 4175 0    40   ~ 0
+HPR
+Text Label 1500 4425 0    40   ~ 0
+LINL
+Text Label 1500 4575 0    40   ~ 0
+LINR
+Text HLabel 1375 4300 0    50   UnSpc ~ 0
+HCOM
+Wire Wire Line
+	1375 4300 1725 4300
+Text Label 1500 4300 0    40   ~ 0
+HCOM
+Text HLabel 1375 4725 0    50   UnSpc ~ 0
+I2S-MCLK
+Wire Wire Line
+	1375 4725 1725 4725
+Text Label 1425 4725 0    40   ~ 0
+I2S-MCLK
+Text HLabel 1375 4975 0    50   UnSpc ~ 0
+I2S-LRCLK
+Text HLabel 1375 5125 0    50   UnSpc ~ 0
+I2S-DOUT
+Wire Wire Line
+	1375 4975 1725 4975
+Wire Wire Line
+	1375 5125 1725 5125
+Text Label 1425 4975 0    40   ~ 0
+I2S-LRCLK
+Text Label 1425 5125 0    40   ~ 0
+I2S-DOUT
+Text HLabel 1375 4850 0    50   UnSpc ~ 0
+I2S-BCLK
+Wire Wire Line
+	1375 4850 1725 4850
+Text Label 1425 4850 0    40   ~ 0
+I2S-BCLK
+Text HLabel 1375 5275 0    50   UnSpc ~ 0
+UBOOT
+Wire Wire Line
+	1375 5275 1725 5275
+Text Label 1475 5275 0    40   ~ 0
+UBOOT
+Text Label 3475 3800 0    40   ~ 0
+LINL
+Text Label 3475 3900 0    40   ~ 0
+LINR
+Text Label 3450 4000 0    40   ~ 0
+HCOM
+Text Label 4975 3800 0    40   ~ 0
+HPL
+Text Label 4975 3900 0    40   ~ 0
+HPR
+Text Label 4925 4000 0    40   ~ 0
+UBOOT
+Text Label 3400 4100 0    40   ~ 0
+I2S-MCLK
+Text Label 4875 4100 0    40   ~ 0
+I2S-BCLK
+Text Label 3375 4200 0    40   ~ 0
+I2S-LRCLK
+Text Label 4875 4200 0    40   ~ 0
+I2S-DOUT
+$Comp
+L GND #PWR055
+U 1 1 53E937B8
+P 3300 4300
+F 0 "#PWR055" H 3300 4300 30  0001 C CNN
+F 1 "GND" H 3300 4230 30  0001 C CNN
+F 2 "" H 3300 4300 60  0000 C CNN
+F 3 "" H 3300 4300 60  0000 C CNN
+	1    3300 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR056
+U 1 1 53E937BE
+P 3300 4400
+F 0 "#PWR056" H 3300 4490 20  0001 C CNN
+F 1 "+5V" H 3300 4490 30  0000 C CNN
+F 2 "" H 3300 4400 60  0000 C CNN
+F 3 "" H 3300 4400 60  0000 C CNN
+	1    3300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR057
+U 1 1 53E937C4
+P 5200 4300
+F 0 "#PWR057" H 5200 4260 30  0001 C CNN
+F 1 "+3.3V" H 5200 4410 30  0000 C CNN
+F 2 "" H 5200 4300 60  0000 C CNN
+F 3 "" H 5200 4300 60  0000 C CNN
+	1    5200 4300
+	0    1    1    0   
+$EndComp
+Text HLabel 1375 875  0    50   UnSpc ~ 0
+VIN
+Wire Wire Line
+	1375 875  1675 875 
+Text Label 1500 875  0    40   ~ 0
+VIN
+Text Label 4975 4400 0    40   ~ 0
+VIN
+$Comp
+L CON_2X20 J5
+U 1 1 53E95E1E
+P 7425 2700
+F 0 "J5" H 7775 600 60  0000 C CNN
+F 1 "CON_2X20" H 7775 2850 60  0000 C CNN
+F 2 "" H 7425 2700 60  0000 C CNN
+F 3 "" H 7425 2700 60  0000 C CNN
+	1    7425 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR058
+U 1 1 53E965D9
+P 7025 2700
+F 0 "#PWR058" H 7025 2660 30  0001 C CNN
+F 1 "+3.3V" H 7025 2810 30  0000 C CNN
+F 2 "" H 7025 2700 60  0000 C CNN
+F 3 "" H 7025 2700 60  0000 C CNN
+	1    7025 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7425 2700 7025 2700
+Wire Wire Line
+	7025 2800 7425 2800
+Wire Wire Line
+	7025 2900 7425 2900
+Wire Wire Line
+	7025 3000 7425 3000
+Wire Wire Line
+	7025 3100 7425 3100
+Wire Wire Line
+	7025 3200 7425 3200
+Wire Wire Line
+	7025 3300 7425 3300
+Wire Wire Line
+	7025 3400 7425 3400
+Wire Wire Line
+	7025 3500 7425 3500
+Wire Wire Line
+	7025 3600 7425 3600
+Wire Wire Line
+	7025 3700 7425 3700
+Wire Wire Line
+	7025 3800 7425 3800
+Wire Wire Line
+	7025 3900 7425 3900
+Wire Wire Line
+	7025 4000 7425 4000
+Wire Wire Line
+	7025 4100 7425 4100
+Wire Wire Line
+	7025 4200 7425 4200
+Wire Wire Line
+	7025 4300 7425 4300
+Wire Wire Line
+	7025 4400 7425 4400
+Wire Wire Line
+	7025 4500 7425 4500
+Wire Wire Line
+	7025 4600 7425 4600
+Wire Wire Line
+	8450 4600 8125 4600
+Wire Wire Line
+	8450 4500 8125 4500
+Wire Wire Line
+	8450 4400 8125 4400
+Wire Wire Line
+	8450 4300 8125 4300
+Wire Wire Line
+	8450 4200 8125 4200
+Wire Wire Line
+	8450 4100 8125 4100
+Wire Wire Line
+	8450 4000 8125 4000
+Wire Wire Line
+	8450 3900 8125 3900
+Wire Wire Line
+	8450 3800 8125 3800
+Wire Wire Line
+	8450 3700 8125 3700
+Wire Wire Line
+	8450 3600 8125 3600
+Wire Wire Line
+	8450 3500 8125 3500
+Wire Wire Line
+	8450 3400 8125 3400
+Wire Wire Line
+	8450 3300 8125 3300
+Wire Wire Line
+	8450 3200 8125 3200
+Wire Wire Line
+	8450 3100 8125 3100
+Wire Wire Line
+	8450 3000 8125 3000
+Wire Wire Line
+	8450 2900 8125 2900
+Wire Wire Line
+	8450 2800 8125 2800
+Wire Wire Line
+	8450 2700 8125 2700
+$Comp
+L +5V #PWR059
+U 1 1 53E9775C
+P 8450 2700
+F 0 "#PWR059" H 8450 2790 20  0001 C CNN
+F 1 "+5V" H 8450 2790 30  0000 C CNN
+F 2 "" H 8450 2700 60  0000 C CNN
+F 3 "" H 8450 2700 60  0000 C CNN
+	1    8450 2700
+	0    1    1    0   
+$EndComp
+Text Label 7075 2800 0    40   ~ 0
+I2C1-SDA
+Text Label 7075 2900 0    40   ~ 0
+I2C1-SCL
+Text Label 7100 3600 0    40   ~ 0
+SPI0-MO
+Text Label 7100 3700 0    40   ~ 0
+SPI0-MI
+Text Label 7075 3800 0    40   ~ 0
+SPI0-SCK
+$Comp
+L GND #PWR060
+U 1 1 53E99AA4
+P 7025 3900
+F 0 "#PWR060" H 7025 3900 30  0001 C CNN
+F 1 "GND" H 7025 3830 30  0001 C CNN
+F 2 "" H 7025 3900 60  0000 C CNN
+F 3 "" H 7025 3900 60  0000 C CNN
+	1    7025 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR061
+U 1 1 53E99AAA
+P 7025 3500
+F 0 "#PWR061" H 7025 3460 30  0001 C CNN
+F 1 "+3.3V" H 7025 3610 30  0000 C CNN
+F 2 "" H 7025 3500 60  0000 C CNN
+F 3 "" H 7025 3500 60  0000 C CNN
+	1    7025 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR062
+U 1 1 53E99AB0
+P 7025 3100
+F 0 "#PWR062" H 7025 3100 30  0001 C CNN
+F 1 "GND" H 7025 3030 30  0001 C CNN
+F 2 "" H 7025 3100 60  0000 C CNN
+F 3 "" H 7025 3100 60  0000 C CNN
+	1    7025 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR063
+U 1 1 53E99AB6
+P 8450 2800
+F 0 "#PWR063" H 8450 2890 20  0001 C CNN
+F 1 "+5V" H 8450 2890 30  0000 C CNN
+F 2 "" H 8450 2800 60  0000 C CNN
+F 3 "" H 8450 2800 60  0000 C CNN
+	1    8450 2800
+	0    1    1    0   
+$EndComp
+Text Label 8150 3000 0    40   ~ 0
+UART1-TX
+Text Label 8150 3100 0    40   ~ 0
+UART1-RX
+$Comp
+L GND #PWR064
+U 1 1 53E9A862
+P 8450 2900
+F 0 "#PWR064" H 8450 2900 30  0001 C CNN
+F 1 "GND" H 8450 2830 30  0001 C CNN
+F 2 "" H 8450 2900 60  0000 C CNN
+F 3 "" H 8450 2900 60  0000 C CNN
+	1    8450 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR065
+U 1 1 53E9A86E
+P 8450 3300
+F 0 "#PWR065" H 8450 3300 30  0001 C CNN
+F 1 "GND" H 8450 3230 30  0001 C CNN
+F 2 "" H 8450 3300 60  0000 C CNN
+F 3 "" H 8450 3300 60  0000 C CNN
+	1    8450 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR066
+U 1 1 53E9A874
+P 8450 3600
+F 0 "#PWR066" H 8450 3600 30  0001 C CNN
+F 1 "GND" H 8450 3530 30  0001 C CNN
+F 2 "" H 8450 3600 60  0000 C CNN
+F 3 "" H 8450 3600 60  0000 C CNN
+	1    8450 3600
+	0    -1   -1   0   
+$EndComp
+Text Label 8150 3800 0    40   ~ 0
+SPI0-CS
+Text Label 8150 3900 0    40   ~ 0
+SPI0-CS1
+$Comp
+L GND #PWR067
+U 1 1 53EA2DCC
+P 8450 4100
+F 0 "#PWR067" H 8450 4100 30  0001 C CNN
+F 1 "GND" H 8450 4030 30  0001 C CNN
+F 2 "" H 8450 4100 60  0000 C CNN
+F 3 "" H 8450 4100 60  0000 C CNN
+	1    8450 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR068
+U 1 1 53EA2DD2
+P 8450 4300
+F 0 "#PWR068" H 8450 4300 30  0001 C CNN
+F 1 "GND" H 8450 4230 30  0001 C CNN
+F 2 "" H 8450 4300 60  0000 C CNN
+F 3 "" H 8450 4300 60  0000 C CNN
+	1    8450 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR069
+U 1 1 53EA2DD8
+P 7025 4600
+F 0 "#PWR069" H 7025 4600 30  0001 C CNN
+F 1 "GND" H 7025 4530 30  0001 C CNN
+F 2 "" H 7025 4600 60  0000 C CNN
+F 3 "" H 7025 4600 60  0000 C CNN
+	1    7025 4600
+	0    1    1    0   
+$EndComp
+Text HLabel 1375 3125 0    50   UnSpc ~ 0
+I2C2-SCL
+Text HLabel 1375 3250 0    50   UnSpc ~ 0
+I2C2-SDA
+Wire Wire Line
+	1375 3125 1725 3125
+Wire Wire Line
+	1375 3250 1725 3250
+Text Label 1425 3125 0    40   ~ 0
+I2C2-SCL
+Text Label 1425 3250 0    40   ~ 0
+I2C2-SDA
+Text Label 7075 4000 0    40   ~ 0
+I2C2-SDA
+Text Label 8150 4000 0    40   ~ 0
+I2C2-SCL
+Text HLabel 1375 5400 0    50   UnSpc ~ 0
+DM0
+Text HLabel 1375 5500 0    50   UnSpc ~ 0
+DP0
+Wire Wire Line
+	1375 5400 1725 5400
+Wire Wire Line
+	1375 5500 1725 5500
+Text Label 1500 5400 0    40   ~ 0
+DM0
+Text Label 1500 5500 0    40   ~ 0
+DP0
+Text Label 7150 3200 0    40   ~ 0
+PI16
+Text Label 8225 3200 0    40   ~ 0
+PI17
+Text Label 7150 3300 0    40   ~ 0
+PI18
+Text Label 7150 3400 0    40   ~ 0
+PI19
+Text Label 8225 3400 0    40   ~ 0
+PI20
+Text Label 8225 3500 0    40   ~ 0
+PI21
+Text Label 8225 3700 0    40   ~ 0
+PG0
+Text Label 7150 4100 0    40   ~ 0
+PG1
+Text Label 7150 4200 0    40   ~ 0
+PG2
+Text Label 8250 4200 0    40   ~ 0
+PG3
+Text Label 7150 4300 0    40   ~ 0
+PG4
+Text Label 7150 4400 0    40   ~ 0
+PG5
+Text Label 8250 4400 0    40   ~ 0
+PG6
+Text Label 7150 4500 0    40   ~ 0
+PG7
+Text Label 8250 4500 0    40   ~ 0
+PG8
+Text Label 7150 3000 0    40   ~ 0
+PI15
+Text HLabel 1375 5600 0    50   UnSpc ~ 0
+PI[15..21]
+Wire Bus Line
+	1375 5600 1450 5600
+Wire Bus Line
+	1450 5600 1450 6375
+Entry Wire Line
+	1450 5700 1550 5800
+Entry Wire Line
+	1450 5800 1550 5900
+Entry Wire Line
+	1450 5900 1550 6000
+Entry Wire Line
+	1450 6000 1550 6100
+Entry Wire Line
+	1450 6100 1550 6200
+Entry Wire Line
+	1450 6200 1550 6300
+Entry Wire Line
+	1450 6300 1550 6400
+Wire Wire Line
+	1850 5800 1550 5800
+Wire Wire Line
+	1850 5900 1550 5900
+Wire Wire Line
+	1850 6000 1550 6000
+Wire Wire Line
+	1850 6100 1550 6100
+Wire Wire Line
+	1850 6200 1550 6200
+Wire Wire Line
+	1850 6300 1550 6300
+Wire Wire Line
+	1850 6400 1550 6400
+Text Label 1625 5800 0    40   ~ 0
+PI15
+Text Label 1625 5900 0    40   ~ 0
+PI16
+Text Label 1625 6000 0    40   ~ 0
+PI17
+Text Label 1625 6100 0    40   ~ 0
+PI18
+Text Label 1625 6200 0    40   ~ 0
+PI19
+Text Label 1625 6300 0    40   ~ 0
+PI20
+Text Label 1625 6400 0    40   ~ 0
+PI21
+Text HLabel 1375 6475 0    50   UnSpc ~ 0
+PG[0..9]
+Wire Bus Line
+	1375 6475 1450 6475
+Wire Bus Line
+	1450 6475 1450 7450
+Entry Wire Line
+	1450 6475 1550 6575
+Entry Wire Line
+	1450 6575 1550 6675
+Entry Wire Line
+	1450 6675 1550 6775
+Entry Wire Line
+	1450 6775 1550 6875
+Entry Wire Line
+	1450 6875 1550 6975
+Entry Wire Line
+	1450 6975 1550 7075
+Entry Wire Line
+	1450 7075 1550 7175
+Entry Wire Line
+	1450 7175 1550 7275
+Wire Wire Line
+	1550 6575 1850 6575
+Wire Wire Line
+	1850 6675 1550 6675
+Wire Wire Line
+	1850 6775 1550 6775
+Wire Wire Line
+	1850 6875 1550 6875
+Wire Wire Line
+	1850 6975 1550 6975
+Wire Wire Line
+	1850 7075 1550 7075
+Wire Wire Line
+	1850 7175 1550 7175
+Wire Wire Line
+	1850 7275 1550 7275
+Text Label 1625 6575 0    40   ~ 0
+PG0
+Text Label 1625 6675 0    40   ~ 0
+PG1
+Text Label 1625 6775 0    40   ~ 0
+PG2
+Text Label 1625 6875 0    40   ~ 0
+PG3
+Text Label 1625 6975 0    40   ~ 0
+PG4
+Text Label 1625 7075 0    40   ~ 0
+PG5
+Text Label 1625 7175 0    40   ~ 0
+PG6
+Text Label 1625 7275 0    40   ~ 0
+PG7
+Entry Wire Line
+	1450 7275 1550 7375
+Wire Wire Line
+	1850 7375 1550 7375
+Text Label 1625 7375 0    40   ~ 0
+PG8
+Text HLabel 1375 3850 0    50   UnSpc ~ 0
+SPI0-CS1
+Wire Wire Line
+	1375 3850 1725 3850
+Text Label 1425 3850 0    40   ~ 0
+SPI0-CS1
+Entry Wire Line
+	1450 7375 1550 7475
+Wire Wire Line
+	1550 7475 1850 7475
+Text Label 1625 7475 0    40   ~ 0
+PG9
+Text Label 8250 4600 0    40   ~ 0
+PG9
+$EndSCHEMATC

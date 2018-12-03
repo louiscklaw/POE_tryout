@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name core_evb-rescue)(type Legacy)(uri ${KIPRJMOD}/core_evb-rescue.lib)(options "")(descr ""))
+  (lib (name ACTIVE_DEVICE)(type Legacy)(uri ${KIPRJMOD}/schsymbol/ACTIVE_DEVICE.lib)(options "")(descr ""))
+  (lib (name CHIP)(type Legacy)(uri ${KIPRJMOD}/schsymbol/CHIP.lib)(options "")(descr ""))
+  (lib (name CONNECTOR)(type Legacy)(uri ${KIPRJMOD}/schsymbol/CONNECTOR.lib)(options "")(descr ""))
+  (lib (name DIODE)(type Legacy)(uri ${KIPRJMOD}/schsymbol/DIODE.lib)(options "")(descr ""))
+  (lib (name DISCRETE)(type Legacy)(uri ${KIPRJMOD}/schsymbol/DISCRETE.lib)(options "")(descr ""))
+  (lib (name HDMI)(type Legacy)(uri ${KIPRJMOD}/schsymbol/HDMI.lib)(options "")(descr ""))
+  (lib (name MODULE)(type Legacy)(uri ${KIPRJMOD}/schsymbol/MODULE.lib)(options "")(descr ""))
+  (lib (name TRANSISTOR)(type Legacy)(uri ${KIPRJMOD}/schsymbol/TRANSISTOR.lib)(options "")(descr ""))
+)

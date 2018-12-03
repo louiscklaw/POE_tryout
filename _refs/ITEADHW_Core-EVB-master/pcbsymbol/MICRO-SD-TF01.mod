@@ -1,0 +1,117 @@
+PCBNEW-LibModule-V1  2013/11/26 16:23:51
+# encoding utf-8
+Units mm
+$INDEX
+MICRO-SD-TF01
+$EndINDEX
+$MODULE MICRO-SD-TF01
+Po 0 0 0 15 52945A80 00000000 ~~
+Li MICRO-SD-TF01
+Cd MICRO-SD
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.05
+.LocalClearance 0.05
+T0 6.4 2.7 1 1 0 0.15 N I 21 N "MICRO-SD-TF01"
+T1 1.5 1.1 1 1 0 0.15 N I 21 N "J**"
+DS 0.1 0 0 0 0.15 21
+DS 0.1 -16 0 -16 0.15 21
+DS 0.1 0 17.4 0 0.15 21
+DS 17.5 0 17.5 -16 0.15 21
+DS 17.4 -16 0.1 -16 0.15 21
+DS 0 -16 0 0 0.15 21
+$PAD
+Sh "1" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.8 -14.9
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "2" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 10.7 -14.9
+$EndPAD
+$PAD
+Sh "3" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.6 -14.9
+$EndPAD
+$PAD
+Sh "4" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.5 -14.9
+$EndPAD
+$PAD
+Sh "5" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.4 -14.9
+$EndPAD
+$PAD
+Sh "6" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.3 -14.9
+$EndPAD
+$PAD
+Sh "7" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.2 -14.9
+$EndPAD
+$PAD
+Sh "8" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.1 -14.9
+$EndPAD
+$PAD
+Sh "9" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -14.9
+$EndPAD
+$PAD
+Sh "10" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 -14
+$EndPAD
+$PAD
+Sh "11" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 15.9 -14
+$EndPAD
+$PAD
+Sh "12" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 -4.4
+$EndPAD
+$PAD
+Sh "13" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 16.7 -4.4
+$EndPAD
+$EndMODULE MICRO-SD-TF01
+$EndLIBRARY
