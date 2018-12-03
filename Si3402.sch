@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:POE_tryout-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -22,17 +23,6 @@ F 1 "Si3402-B-GM" H 5350 3450 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias" H 5250 2750 50  0001 C CNN
 F 3 "" H 5250 2750 50  0001 C CNN
 	1    5350 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-c:C225,1206 C1
-U 1 1 5C006163
-P 2150 1950
-F 0 "C1" H 2250 2000 50  0000 L CNN
-F 1 "C225,1206" H 2250 1950 50  0000 L CNN
-F 2 "" H 2150 1950 50  0001 C CNN
-F 3 "~" H 2150 1950 50  0001 C CNN
-	1    2150 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -438,4 +428,15 @@ Wire Wire Line
 Wire Wire Line
 	9500 1550 9500 1700
 Connection ~ 9500 1700
+$Comp
+L taobao-c:C225,1206 C1
+U 1 1 5C045FF5
+P 2150 1950
+F 0 "C1" H 2250 2000 50  0000 L CNN
+F 1 "C225,1206" H 2250 1950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2150 1950 50  0001 C CNN
+F 3 "~" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
